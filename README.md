@@ -47,3 +47,5 @@ _This is italic text example_
 
 My favourite food:  
 ![egg](https://qa-courseware-images.s3.eu-west-2.amazonaws.com/markdown/links_images/000.jpeg)
+
+making changes
