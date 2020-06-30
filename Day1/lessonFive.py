@@ -12,8 +12,8 @@ hwMark = int(input("Enter your homework mark out of 25: "))
 assMark = int(input("Enter your assessment mark out of 50: "))
 examMark = int(input("Enter your exam mark out of 100: "))
 
-def calcperc(hwMark, assMark, exaMark):
-    totalperc = ((hwMark+assMark+exaMark) / 175) * 100
+def calcperc(hwMark, assMark, examMark):
+    totalperc = ((hwMark+assMark+examMark) / 175) * 100
 
     if totalperc > 89:
         grade = "A"
