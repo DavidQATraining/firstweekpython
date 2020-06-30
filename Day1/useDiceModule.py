@@ -1,3 +1,4 @@
 from Day1 import dice
 
-print(dice.throwdice())
+print("First number: ", dice.throwdice())
+print("Second number: ", dice.throwdice())
