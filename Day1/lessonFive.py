@@ -14,24 +14,23 @@ examMark = int(input("Enter your exam mark out of 100: "))
 
 def calcperc(hwMark, assMark, exaMark):
     totalperc = ((hwMark+assMark+exaMark) / 175) * 100
-    grade = ""
-    if totalperc >= 90:
+
+    if totalperc > 89:
         grade = "A"
-    elif totalperc >= 80:
+    elif totalperc > 79:
         grade = "B"
-    elif totalperc >= 70:
+    elif totalperc > 69:
         grade = "C"
-    elif totalperc >= 60:
+    elif totalperc > 59:
         grade = "D"
     else:
         grade = "F"
 
-    print(stuName, "got a grade of", grade, "with",
-          round(totalperc), "%")
-    return grade, totalperc
+    result = stuName + " got a grade of '" + grade + "' with " + str(round(totalperc)) + "%"
+    return result
 
 
-calcperc(hwMark, assMark, examMark)
+print(calcperc(hwMark, assMark, examMark))
 
 
 
