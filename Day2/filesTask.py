@@ -42,5 +42,3 @@ file.close()
 # lines = file.readlines()
 # print(lines)
 # file.close()
-
-
